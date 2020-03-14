@@ -1,7 +1,7 @@
 # Korea_Public_Mask_Store_Visualization
 마스크 공적판매처 위치 지도 시각화
 
-<p align="center><img width=1000px src="./img/example_01.png"/></p>
+<p align="center"><img width=1000px src="./img/example_01.png"/></p>
 
 ### 사용 API
 - 공공데이터 포털- 건강보험심사평가원_공적마스크 판매정보
