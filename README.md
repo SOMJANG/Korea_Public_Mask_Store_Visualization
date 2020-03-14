@@ -19,11 +19,13 @@
 #### getMaskStoreInfo()
 - 전체 공적 판매처 데이터를 받아오는 함수
 - DataFrame형식으로 return 함
+
 <p align="center"><img width=1000px src="./img/getMaskStoreInfo.png/></p>
 
 ### getMaskStoreSalesInfo()
 - 전체 공적 판매처 마스크 재고현황을 받아오는 함수
 - 공적판매처 code를 key값으로 하는 Dictionary를 return 함
+
 <p align="center"><img width=1000px src="./img/getMaskStoreSalesInfo.png/></p>
 
 ### mergeSalesInfobyStoreCode(sales_dict, my_info_df)
