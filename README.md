@@ -28,9 +28,22 @@
 - 전체 공적 판매처 마스크 재고현황을 받아오는 함수
 - 공적판매처 code를 key값으로 하는 Dictionary를 return 함
 
-<p align="center">
-  <img width=1000px src="./img/getMaskStoreSalesInfo.png"/>
-</p>
+```console
+{'31837492': {'created_at': '2020/03/14 23:55:00',
+  'remain_stat': 'empty',
+  'stock_at': '2020/03/14 13:09:00'},
+ '21836841': {'created_at': '2020/03/14 23:55:00',
+  'remain_stat': 'empty',
+  'stock_at': '2020/03/14 09:53:00'},
+ '37839128': {'created_at': '2020/03/14 23:55:00',
+  'remain_stat': 'break',
+  'stock_at': '2020/03/14 11:41:00'},
+ '11831049': {'created_at': '2020/03/14 23:55:00',
+  'remain_stat': 'empty',
+  'stock_at': '2020/03/14 12:38:00'},
+                         :
+                         :
+```
 
 ### mergeSalesInfobyStoreCode(sales_dict, my_info_df)
 - sales_dict : getMaskStoreSalesInfo() 에서 얻은 Dictionary
