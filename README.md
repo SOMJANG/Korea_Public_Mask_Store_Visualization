@@ -16,7 +16,7 @@
 
 ### 세부 설명 - https://bit.ly/2Qfkshn
 
-#### getMaskStoreInfo()
+### getMaskStoreInfo()
 - 전체 공적 판매처 데이터를 받아오는 함수
 - DataFrame형식으로 return 함
 
