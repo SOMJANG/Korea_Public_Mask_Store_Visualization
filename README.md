@@ -1,4 +1,4 @@
-# Korea_Public_Mask_Store_Visualization
+# 🗺Korea_Public_Mask_Store_Visualization🗺
 마스크 공적판매처 위치 지도 시각화
 
 <p align="center"><img width=1000px src="./img/example_01.png"/></p>
@@ -16,7 +16,7 @@
 
 ### 세부 설명 - https://bit.ly/2Qfkshn
 
-### getMaskStoreInfo()
+### 🗺 getMaskStoreInfo() 🗺
 - 전체 공적 판매처 데이터를 받아오는 함수
 - DataFrame형식으로 return 함
 
@@ -24,7 +24,7 @@
   <img width=1000px src="./img/getMaskStoreInfo.png"/>
 </p>
 
-### getMaskStoreSalesInfo()
+### 🗺 getMaskStoreSalesInfo() 🗺
 - 전체 공적 판매처 마스크 재고현황을 받아오는 함수
 - 공적판매처 code를 key값으로 하는 Dictionary를 return 함
 
@@ -45,18 +45,18 @@
                          :
 ```
 
-### mergeSalesInfobyStoreCode(sales_dict, my_info_df)
+### 🗺 mergeSalesInfobyStoreCode(sales_dict, my_info_df) 🗺
 - sales_dict : getMaskStoreSalesInfo() 에서 얻은 Dictionary
 - my_info_df : getMaskStoreInfo()에서 얻은 DataFrame
 - my_info_df의 code값을 key값으로 활용하여 sales_dict에서 재고 데이터를 얻고 my_info_df에 추가하는 함수
 - DataFrame 형식으로 return 함
 
-### getNearMaskStoreInfo(address)
+### 🗺 getNearMaskStoreInfo(address) 🗺
 - address : "서울특별시 동작구" 와 같은 시군구 주소정보
 - 입력한 주소에 있는 공적 판매처 정보를 받아오는 함수
 - DataFrame 형식으로 return 함
 
-### getNearMaskStoreInfoByGeo(lat, lng, m)
+### 🗺 getNearMaskStoreInfoByGeo(lat, lng, m) 🗺
 - lat : 위도
 - lng : 경도
 - m : 반경 m 미터
