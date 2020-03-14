@@ -1,4 +1,4 @@
-# 🗺Korea_Public_Mask_Store_Visualization🗺
+# 🗺Korea_Public_Mask_Store_Visualization 🗺
 마스크 공적판매처 위치 지도 시각화
 
 <p align="center"><img width=1000px src="./img/example_01.png"/></p>
