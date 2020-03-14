@@ -35,4 +35,14 @@
 ### mergeSalesInfobyStoreCode(sales_dict, my_info_df)
 - sales_dict : getMaskStoreSalesInfo() 에서 얻은 Dictionary
 - my_info_df : getMaskStoreInfo()에서 얻은 DataFrame
-- my_info_df의 code값을 key값으로 활용하여 sales_dict에서 재고 데이터를 얻고 my_info_df에 추가하기 
+- my_info_df의 code값을 key값으로 활용하여 sales_dict에서 재고 데이터를 얻고 my_info_df에 추가하는 함수
+
+### getNearMaskStoreInfo(address)
+- address : "서울특별시 동작구" 와 같은 시군구 주소정보
+- 입력한 주소에 있는 공적 판매처 정보를 받아오는 함수
+
+### getNearMaskStoreInfoByGeo(lat, lng, m)
+- lat : 위도
+- lng : 경도
+- m : 반경 m 미터
+- 입력한 위도와 경도를 기준으로 반경 m 미터 안에있는 공적 판매처 정보를 받아오는 함수
